@@ -28,7 +28,7 @@ def render_issue_list(issues, projects):
                 if st.button(f"Mark as {'Pending' if issue['status'] == 'Completed' else 'Completed'}", key=f"toggle_{issue['created_at']}"):
                     issue["status"] = "Pending" if issue["status"] == "Completed" else "Completed"
                     save_data(projects, issues)
-                    st.experimental_rerun()
+                    st.rerun()
 
 def render_issue_form():
     projects, issues = load_data()
@@ -45,4 +45,4 @@ def render_issue_form():
             issues.append(new_issue)
             save_data(projects, issues)
             st.success("Issue added successfully!")
-            st.experimental_rerun()
+            st.rerun()

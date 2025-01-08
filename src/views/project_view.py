@@ -61,12 +61,12 @@ def render_project_form():
         with col3:
             arch_diagram = st.file_uploader(
                 "Technical Architecture Diagram",
-                type=['png', 'jpg', 'jpeg']
+                type=['png', 'jpg', 'jpeg', 'pdf']
             )
         with col4:
             infra_diagram = st.file_uploader(
                 "Infrastructure Diagram",
-                type=['png', 'jpg', 'jpeg']
+                type=['png', 'jpg', 'jpeg', 'pdf']
             )
         
         weeks = st.number_input("Number of Weeks for Delivery Plan", min_value=1, max_value=52, value=4)
