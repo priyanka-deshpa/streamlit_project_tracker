@@ -1,0 +1,155 @@
+/* Global Styles */
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.header-container [data-testid="column"] {
+    padding: 0 !important;
+}
+
+.stApp {
+    background-color: #f8f9fa;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+/* Main Container */
+.main {
+    padding: 0.5rem;
+}
+
+/* Header Styles */
+h1 {
+    color: #1a237e;
+    font-size: 2rem;
+    margin-bottom: 1rem !important;
+    padding-bottom: 0.5rem !important;
+    border-bottom: 2px solid #e3e6f0;
+}
+
+h2, h3 {
+    color: #283593;
+    margin: 0.5rem 0 !important;
+    padding: 0.25rem 0 !important;
+}
+
+/* Table Row Styles */
+.table-row {
+    background: white;
+    padding: 0.75rem;
+    margin: 0.25rem 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+}
+
+.table-row:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+/* Search Container */
+.search-container {
+    margin-bottom: 0.5rem;
+}
+
+.search-container input {
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Button Styles */
+.stButton > button {
+    border-radius: 4px;
+    padding: 0.25rem 1rem;
+    margin: 0 !important;
+    height: 38px;
+    background-color: #3f51b5;
+    color: white;
+}
+
+.stButton > button:hover {
+    background-color: #283593;
+}
+
+/* Status Badges */
+.status-pending {
+    background: #ffecb3;
+    color: #ff6f00;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.875rem;
+}
+
+.status-completed {
+    background: #c8e6c9;
+    color: #2e7d32;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.875rem;
+}
+
+/* Form Styles */
+.stForm > div:first-child {
+    background: white;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 0.5rem;
+}
+
+/* Tab Styles */
+.stTabs [data-baseweb="tab"] {
+    padding: 0.5rem 1rem;
+}
+
+.stTabs [data-baseweb="tab-panel"] {
+    padding: 0.5rem 0;
+}
+
+/* Column Layout */
+[data-testid="column"] {
+    padding: 0 0.25rem !important;
+}
+
+/* Messages */
+.success-message {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+}
+
+.info-message {
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    margin: 0.25rem 0 !important;
+    padding: 0.5rem 0.75rem !important;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+/* Input Fields */
+.stTextInput {
+    margin-bottom: 0 !important;
+    padding: 0.25rem 1rem;
+}
+/*.stTextArea > div > div > textarea {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+}*/
