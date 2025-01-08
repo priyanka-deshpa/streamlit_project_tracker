@@ -57,7 +57,7 @@ A Streamlit application for tracking project activities and managing technical i
    ```
 
 2. Configure storage provider (optional):
-   - Copy `.env.example` to `.env`
+   - Create `.env` file
    - Update with your storage credentials
 
 3. Run the application:
