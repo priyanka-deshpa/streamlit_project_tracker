@@ -57,7 +57,7 @@ A Streamlit application for tracking project activities and managing technical i
    ```
 
 2. Configure storage provider (optional):
-   - Copy `.env.example` to `.env`
+   - Create `.env` file
    - Update with your storage credentials
 
 3. Run the application:
@@ -83,3 +83,4 @@ The application supports multiple storage providers for diagram uploads:
 - Projects and issues are stored in JSON files under the `data/` directory
 - Architecture diagrams are stored based on the configured storage provider
 - Data is automatically saved when adding or updating records
+

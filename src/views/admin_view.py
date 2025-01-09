@@ -52,3 +52,5 @@ def render_admin_page():
                         st.warning(f"Click delete again to confirm removing {project['name']}")
         st.markdown('</div>', unsafe_allow_html=True)
 
+
+
