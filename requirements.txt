@@ -4,3 +4,4 @@ pillow
 boto3
 azure-storage-blob
 python-dotenv
+pydantic

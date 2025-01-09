@@ -83,3 +83,4 @@ The application supports multiple storage providers for diagram uploads:
 - Projects and issues are stored in JSON files under the `data/` directory
 - Architecture diagrams are stored based on the configured storage provider
 - Data is automatically saved when adding or updating records
+
